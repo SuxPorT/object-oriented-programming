@@ -2,17 +2,17 @@ package trabalho1;
 
 public class controle {
     public static void main(String[] args){
-        semaforo SMFR = new semaforo();
+        semaforo smfr = new semaforo();
         int contador = 0;
 
-        System.out.println("Cor atual: " + SMFR.corSemaforo);
+        System.out.println("Cor atual: " + smfr.corSemaforo);
 
         while(contador < 10){
-            SMFR.MudaProximaCor();
-            System.out.println("Mudando para a cor: " + SMFR.corSemaforo);
+            smfr.MudaProximaCor();
+            System.out.println("Mudando para a cor: " + smfr.corSemaforo);
             contador++;
         }
-        semaforo.MudaCorFixa(1);
-        System.out.println("Cor final: " + SMFR.corSemaforo);
+        smfr.MudaCorFixa(1);
+        System.out.println("Cor final: " + smfr.corSemaforo);
     }
 }
