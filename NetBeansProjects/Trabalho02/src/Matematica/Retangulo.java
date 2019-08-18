@@ -10,7 +10,6 @@ public class Retangulo {
         assert (v >= 0): "Não admite-se lados negativos";
         ladoH = h;
         ladoV = v;
-        
     }
     
     public static float area() {
