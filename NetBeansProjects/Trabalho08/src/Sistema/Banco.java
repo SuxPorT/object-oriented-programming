@@ -22,6 +22,7 @@ public class Banco {
     
     public void criar_conta(int numero, String senha, double saldo) {
         listaContas.add(new ContaCorrente(numero, senha, saldo));
+        System.out.println("Conta " + numero + " criada com sucesso!");
     }
     
     public void sacar(int numero, String senha, double valor)
