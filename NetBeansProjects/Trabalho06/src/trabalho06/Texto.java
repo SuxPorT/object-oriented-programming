@@ -7,6 +7,6 @@ public class Texto extends Arquivo {
     }
     
     public void abrir() {
-        System.out.println("Abrindo texto \"" + this.nome + ".docx\" no Microsoft Word");
+        System.out.println("Abrindo texto \"" + this.nome + ".docx\" no Microsoft Word.");
     }
 }
