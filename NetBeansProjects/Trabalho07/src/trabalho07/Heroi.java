@@ -1,6 +1,7 @@
 package trabalho07;
 
 abstract public class Heroi extends Personagem {
+    
     @Override
     public void correr(float x, float y) {
         System.out.println("Herói correndo de (" + this.posicao_x + ", " + this.posicao_y + ") para (" + x + ", " + y + ")");

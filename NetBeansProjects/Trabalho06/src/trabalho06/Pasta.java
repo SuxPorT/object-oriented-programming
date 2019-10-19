@@ -18,30 +18,36 @@ public class Pasta {
     
     public void remover(String nome) {
         int posicao = 0;
+        
         for (Arquivo arquivo: colecaoArquivos) {
             if (arquivo.imprimir().equals(nome)) {
                 posicao = colecaoArquivos.indexOf(arquivo);
             }
         }
+        
         colecaoArquivos.remove(posicao);
         System.out.println("\nArquivo \"" + nome + "\" removido da pasta \"" + this.nome +"\".");
     }
     
     public void listar() {
         System.out.println("\nLista de arquivos dentro da pasta \"" + this.nome + "\":");
+        
         for (Arquivo arquivo: colecaoArquivos) {
             System.out.println(" - " + arquivo.imprimir());
         }
+        
         System.out.println();
     }
     
     public void duplicar(String nome) {
         int posicao = 0;
+        
         for (Arquivo arquivo: colecaoArquivos) {
             if (arquivo.imprimir().equals(nome)) {
                 posicao = colecaoArquivos.indexOf(arquivo); 
             }
         }
+        
         colecaoArquivos.add(colecaoArquivos.get(posicao));
         System.out.println("\nArquivo \"" + nome + "\" duplicado para a pasta \"" + this.nome + "\".");
     }

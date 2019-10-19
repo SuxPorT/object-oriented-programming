@@ -6,6 +6,7 @@ public class Imagem extends Arquivo {
         super(nome);
     }
     
+    @Override
     public void abrir() {
         System.out.println("Abrindo imagem \"" + this.nome + ".png\" na Galeria de Fotos.");
     }

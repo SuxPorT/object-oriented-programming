@@ -6,7 +6,8 @@ public class Video extends Arquivo {
         super(nome);
     }
     
+    @Override
     public void abrir() {
-        System.out.println("Abrindo vídeo \"" + this.nome + ".mp4\" no VLC");
+        System.out.println("Abrindo vídeo \"" + this.nome + ".mp4\" no VLC.");
     }
 }

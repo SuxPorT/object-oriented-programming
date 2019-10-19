@@ -36,7 +36,7 @@ public class Banco {
         hora = calendario.get(Calendar.HOUR_OF_DAY);
         
         if (hora < 8 || hora > 22) {
-            throw new ExcecaoHorarioInvalido("Horário inválido! Interrompendo o sistma.");
+            throw new ExcecaoHorarioInvalido("Horário inválido! Interrompendo o sistema.");
         }
         
         boolean flag = false;
@@ -54,7 +54,7 @@ public class Banco {
             usuario.retirar(valor, senha);
         }
         else {
-            throw new ExcecaoContaInvalida("Conta inválida! Interrompendo o sistma.");
+            throw new ExcecaoContaInvalida("Conta inválida! Interrompendo o sistema.");
         }
     }
 }

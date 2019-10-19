@@ -15,36 +15,31 @@ public class Teste {
         bruceWayne.correr(2, 3);
         bruceWayne.saltar(1);
         bruceWayne.camuflar(2);
-        System.out.println();
         
-        System.out.println("================ James Bond =================");
+        System.out.println("\n================ James Bond =================");
         jamesBond.correr(2, 2);
         jamesBond.saltar(1);
         jamesBond.atirar();
-        System.out.println();
         
-        System.out.println("================== Coringa ===================");
+        System.out.println("\n================== Coringa ===================");
         joker.atirar();
         joker.saltar(1);
         joker.correr(2, 3);
         joker.morrer();
-        System.out.println();
         
-        System.out.println("================== Pinguim ===================");
+        System.out.println("\n================== Pinguim ===================");
         cobblepot.atirar();
         cobblepot.correr(2, 2);
         cobblepot.saltar(0);
-        System.out.println();
         
-        System.out.println("================= Goldfinger =================");
+        System.out.println("\n================= Goldfinger =================");
         goldfinger.saltar(1);
         goldfinger.correr(2, 2);
         goldfinger.personificar(jamesBond);
         goldfinger.atirar();
         goldfinger.personificar(bruceWayne);
-        System.out.println();
         
-        System.out.println("==================== DrNo ====================");
+        System.out.println("\n==================== DrNo ====================");
         juliusNo.correr(1, 2);
         juliusNo.saltar(3);
         juliusNo.atirar();

@@ -6,7 +6,8 @@ public class Som extends Arquivo {
         super(nome);
     }
     
+    @Override
     public void abrir() {
-         System.out.println("Abrindo áudio \"" + this.nome + ".mp3\" no Spotify.");
+        System.out.println("Abrindo áudio \"" + this.nome + ".mp3\" no Spotify.");
     }
 }

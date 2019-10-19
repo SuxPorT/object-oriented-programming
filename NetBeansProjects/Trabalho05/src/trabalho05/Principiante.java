@@ -7,14 +7,11 @@ public class Principiante extends Jogador {
         super(nome, score);
         this.bonus = bonus;
     }
-
-
     
     @Override
     public void imprimir() {
         super.imprimir();
         System.out.println("Bônus: " + this.bonus);
-
     }
     
     public void ganhar(int p) {

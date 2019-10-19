@@ -6,6 +6,7 @@ public class Texto extends Arquivo {
         super(nome);
     }
     
+    @Override
     public void abrir() {
         System.out.println("Abrindo texto \"" + this.nome + ".docx\" no Microsoft Word.");
     }

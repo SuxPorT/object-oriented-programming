@@ -6,6 +6,7 @@ public class Planilha extends Arquivo {
         super(nome);
     }
     
+    @Override
     public void abrir() {
         System.out.println("Abrindo planilha \"" + this.nome + ".xlsx\" no Microsoft Excel.");
     }

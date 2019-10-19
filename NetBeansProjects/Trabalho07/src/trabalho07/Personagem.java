@@ -2,9 +2,7 @@ package trabalho07;
 
 abstract public class Personagem {
     private boolean vivo = true;
-    protected float posicao_x;
-    protected float posicao_y;
-    protected float posicao_z;
+    protected float posicao_x, posicao_y,posicao_z;
     protected int cor;
     
     abstract public void correr(float x, float y);

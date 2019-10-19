@@ -6,6 +6,7 @@ public class Apresentacao extends Arquivo {
         super(nome);
     }
     
+    @Override
     public void abrir() {
         System.out.println("Abrindo apresentação \"" + this.nome + ".pptx\" no Microsoft PowerPoint.");
     }

@@ -18,19 +18,19 @@ public class ContaCorrente {
         throws ExcecaoSenhaInvalida, ExcecaoSaldoInsuficiente
     {
         if (!senha.equals(this.senha)) {
-            throw new ExcecaoSenhaInvalida("Senha inválida! Interrompendo o sistma.");
+            throw new ExcecaoSenhaInvalida("Senha inválida! Interrompendo o sistema.");
         }
         
         if (valor > this.saldo) {
-            throw new ExcecaoSaldoInsuficiente("Valor inválido! Interrompendo o sistma.");
+            throw new ExcecaoSaldoInsuficiente("Valor inválido! Interrompendo o sistema.");
         }
         
-        System.out.println("Conta: " + this.numero);
+        System.out.println("\nConta: " + this.numero);
         System.out.println("Saldo: R$" + this.saldo);
         System.out.println("Saque: R$" + valor);
         
         this.saldo -= valor;
-        System.out.println("Saldo final: R$" + this.saldo + "\n");
+        System.out.println("Saldo final: R$" + this.saldo);
     }
     
     public int getNumero() {
