@@ -9,16 +9,14 @@ public class Teste {
         joao.ganhar(250);
         joao.perder(120);
         joao.imprimir();
-        System.out.println();
         
-        System.out.println(" --- PROFISSIONAL ---");
+        System.out.println("\n --- PROFISSIONAL ---");
         Profissional pedro = new Profissional("Pedro", 320, 1800);
         pedro.ganhar(400);
         pedro.perder(220);
         pedro.imprimir();
-        System.out.println();
         
-        System.out.println(" ------ SENIOR ------");
+        System.out.println("\n ------ SENIOR ------");
         Senior tiago = new Senior("Tiago", 450, 2100, 1500);
         tiago.ganhar(850);
         tiago.perder(780);
