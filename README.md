@@ -1,5 +1,5 @@
 # Programação Orientada a Objetos
-Disciplina do **3° Período** de **Ciência da Computação** na **PUCPR**
+Disciplina do **2° Período** de **Ciência da Computação** da **PUCPR**
 
 ## Ementa
 A  disciplina, de  natureza  teórico-prática, é ofertada  no  segundo  período  de  Engenharia  de  Software,
